@@ -1,2 +1,2 @@
-# outlook-safe-links-formatter
-To copy links from Outlook and scan them with VirusTotal
+# Outlook safe links formatter
+is mainly used for copying hyperlinks from Outlook and scanning them with VirusTotal. The script url-handler.py removes the URL header and [decodes](https://www.url-encode-decode.com/) the contained encoded symbols according to UTF-8 encoding standard. 
