@@ -1,4 +1,4 @@
-# The logic behind this is code is to fix copied URLs from outllok in order to
+# The logic behind this is code is to decode copied URLs from outllok in order to
 # scan them using VirusTotal.com
 # 
 # How to use:
@@ -9,7 +9,7 @@
 #
 # Code flow:
 # Read the contents of the file safe-urls.txt, remove the Outlook safe link, 
-# replace the symbols with their correct URL indentified.
+# replace the UTF-8 symbols with their correct URL indentifier.
 #
 
 
